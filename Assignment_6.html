@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Even" + "<br>");
+        var i=0;
+        let userInput = prompt("");
+        let Inp = parseInt(userInput, 10);
+        for(i=1;i<=10;i++){
+            if((Inp*i)%2==0){
+                document.write((Inp*i) + "<br>");
+            }
+            
+        }
+        let userInput1 = prompt("");
+        let Inp1 = parseInt(userInput1, 10);
+        document.write(" ");
+        for(i=1;i<=10;i++){
+            if((Inp1*i)%2==0 && (Inp1*i)>Inp*10){
+                document.write((Inp1*i) + "<br>");
+            }
+        }
+        document.write("<br>");
+        document.write("Odd" + "<br>");
+        var i=0;
+        for(i=1;i<=10;i++){
+            if((Inp*i)%2!=0){
+                document.write((Inp*i) + "<br>");
+            }
+            
+        }
+        // document.write("<br>");
+        for(i=1;i<=10;i++){
+            if((Inp1*i)%2!=0){
+                document.write((Inp1*i) + "<br>");
+            }
+        }
+
+
+    </script>
+</body>
+</html>
