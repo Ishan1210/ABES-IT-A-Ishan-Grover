@@ -11,8 +11,51 @@
         // const car=["BMW","Audi","Volvo"];
         // document.getElementById("ish").innerHTML=car;
 
-        const car=new Array("BMW","Audi","Volvo");
-        document.getElementById("ish").innerHTML=car;
+        // const car=new Array("BMW","Audi","Volvo");
+        // document.getElementById("ish").innerHTML=car;
+
+        // const car=["BMW","Audi","Volvo"];
+        // document.getElementById("ish").innerHTML=car[1];
+
+        // car[2]="Lamborghini";
+        // document.getElementById("ish").innerHTML=car;
+
+        // const person={
+        //     firstName:"Ishan",
+        //     lastName:"Grover",
+        //     age:19,
+        //     eyeColor:"black"
+        // };
+        // document.getElementById("ish").innerHTML=person.firstName;
+
+        const student1={
+            name:"Ishan",
+            rollno: 69,
+            class:"IT-A"
+        };
+
+        const student2={
+            name:"Ansh",
+            rollno: 70,
+            class:"IT-A"
+        };
+
+        const student3={
+            name:"Aryan",
+            rollno: 71,
+            class:"IT-A"
+        };
+
+        const student4={
+            name:"Ishani",
+            rollno: 79,
+            class:"IT-A"
+        };
+        const students=[student1,student2,student3,student4];
+       for(let i=0;i<students.length;i++){
+        let s=students[i];
+        document.getElementById("ish").innerHTML+=s.name+" "+s.rollno+" "+s.class+"<br>";
+       }
     </script>
 </body>
 </html>
