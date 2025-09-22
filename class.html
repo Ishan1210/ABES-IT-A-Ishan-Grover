@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+</head>
+<body>
+    <h1 id="ish"></h1>
+    <script>
+    class Car{
+        constructor(name,model,year){
+            this.name=name;
+            this.model=model;
+            this.year=year;
+        }       
+    }
+    const mycar1=new Car("ford ","mustang",1969);
+    const mycar2=new Car("Maruti Suzuki ","Alto K10",2015);
+    document.getElementById("ish").innerHTML=mycar1.name+" "+mycar1.model+" "+mycar1.year;
+    document.getElementById("ish").innerHTML+="<br>"+mycar2.name+" "+mycar2.model+" "+mycar2.year;  
+    </script>               
+</body>
+</html>
