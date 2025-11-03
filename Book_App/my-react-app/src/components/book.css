@@ -1,7 +1,14 @@
-#book{
-    border: 5px solid red;
-    height: 300px;
-    width: 300px;
-    background-color: coral;
-    
+#book {
+  border: 5px solid red;
+  height: 300px;
+  width: 300px;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ish{
+   display: flex;
+  gap: 20px; /* space between books */
+}
 }
