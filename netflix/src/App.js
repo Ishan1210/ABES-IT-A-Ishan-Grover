@@ -1,18 +1,20 @@
 import React from 'react'
 import Card from './components/Card';
 import Navbar from './components/Navbar';
+import Change from './components/Change';
 
 
 function App() {
   return (
     <div>
-      <Navbar ht1="ABES"/>
+      <Change/>
+      {/* <Navbar ht1="ABES"/>
       <br/>
       <Card name="Mickey" age={5}/>
       <br/>
       <Card name="Cartoon" age={7}/>
       <br/>
-      <Card name="Mouse" age={6}/>
+      <Card name="Mouse" age={6}/> */}
     </div>
   )
 }
