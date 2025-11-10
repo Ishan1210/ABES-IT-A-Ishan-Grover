@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
 .navbar {
   width: 100%;
   background: #333;
@@ -6,6 +13,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 30px;
+  position: fixed;      /* stays at the top */
+  top: 0;
+  left: 0;
 }
 
 .logo {
@@ -26,4 +36,9 @@
 
 .navbar li:hover {
   color: yellow;
+}
+
+/* Add top spacing so content doesn't go under navbar */
+#ish {
+  padding-top: 80px;
 }
