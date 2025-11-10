@@ -4,11 +4,9 @@
   width: 300px;
   background-color: coral;
   display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 #ish{
    display: flex;
-  gap: 20px; /* space between books */
-}
+  gap: 20px; 
 }

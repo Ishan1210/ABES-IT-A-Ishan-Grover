@@ -1,15 +1,20 @@
 import React from 'react'
 import Book from './components/book.jsx'
+import Navbar from './components/Navbar.jsx'   // ✅ IMPORT NAVBAR
+import './components/navbar.css'              // ✅ IMPORT NAVBAR CSS
+
 function App() {
 
-
   return (
-    <div id='ish'>
-      <Book/>
-      <Book/>
-      <Book/>
-      
-    </div>
+    <>
+      <Navbar />   {/* ✅ USE NAVBAR */}
+
+      <div id='ish'>
+        <Book/>
+        <Book/>
+        <Book/>
+      </div>
+    </>
   )
 }
 
